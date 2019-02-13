@@ -1,0 +1,15 @@
+{
+  "name": "reactportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio page in React ",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/app.js --out-file public/scripts/app.js --presets=env,react"
+  },
+  "author": "Romero Lijkwan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1"
+  }
+}
